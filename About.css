@@ -309,12 +309,11 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 616px;
+    min-height: 679px;
   }
 
   .u-section-3 .u-list-1 {
-    margin-top: 61px;
-    margin-bottom: 37px;
+    margin-bottom: 59px;
   }
 
   .u-section-3 .u-repeater-1 {
@@ -337,7 +336,6 @@
   }
 
   .u-section-3 .u-list-1 {
-    margin-top: 60px;
     margin-bottom: 60px;
   }
 
@@ -910,14 +908,14 @@
     padding-bottom: 3px;
   }
 } .u-section-6 {
-  min-height: 0;
+  filter: none;
+  min-height: 363px;
 }
 
 .u-section-6 .u-group-1 {
-  min-height: 328px;
+  min-height: 302px;
   height: auto;
-  margin-top: 63px;
-  margin-bottom: 0;
+  margin: 61px 0 0;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -925,10 +923,10 @@
 }
 
 .u-section-6 .u-text-1 {
-  width: 629px;
-  font-size: 3rem;
   font-weight: 700;
-  margin: 50px auto 0;
+  font-size: 3rem;
+  width: 629px;
+  margin: 40px auto 0;
 }
 
 .u-section-6 .u-text-2 {
@@ -938,32 +936,28 @@
 }
 
 .u-section-6 .u-image-1 {
-  width: 334px;
-  height: 129px;
+  width: 305px;
+  height: 143px;
   margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
-  .u-section-6 .u-group-1 {
-    --radius: 30px;
-    height: auto;
+   .u-section-6 {
+    min-height: 0;
   }
 
-  .u-section-6 .u-text-1 {
-    font-size: 3.75rem;
+  .u-section-6 .u-group-1 {
+    margin-right: initial;
+    margin-left: initial;
+    height: auto;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-6 .u-group-1 {
     margin-top: 60px;
-    min-height: 313px;
-  }
-
-  .u-section-6 .u-image-1 {
-    width: 396px;
-    height: 107px;
-    margin-top: 20px;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -974,28 +968,37 @@
   }
 
   .u-section-6 .u-text-1 {
-    font-size: 3.375rem;
     width: 520px;
+    font-size: 2.25rem;
   }
 
   .u-section-6 .u-text-2 {
+    font-size: 1.3333333333333333rem;
     width: 520px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-6 .u-group-1 {
+    min-height: 233px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-6 .u-text-1 {
-    font-size: 2.53125rem;
     width: 320px;
+    margin-top: 36px;
   }
 
   .u-section-6 .u-text-2 {
-    width: 320px;
+    width: auto;
+    margin-left: 41px;
+    margin-right: 41px;
   }
 
   .u-section-6 .u-image-1 {
-    width: 320px;
-    height: 86px;
+    width: 245px;
+    height: 94px;
   }
 } .u-section-7 {
   min-height: 732px;
@@ -1007,6 +1010,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-7 {
+    min-height: 724px;
+  }
+
   .u-section-7 .u-map-1 {
     margin-right: initial;
     margin-left: initial;
